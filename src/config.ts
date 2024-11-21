@@ -31,6 +31,7 @@ export const DefaultConfig: NetworkConfigs = {
 
 export const GlobalConfig: { [key: string]: NetworkConfigs } = {
     zg: ZerogContractConfigs,
+    cfx: DefaultConfig,
     zgTestnetStandard: ZerogTestnetContractConfigsStandard,
     zgTestnetTurbo: ZerogTestnetContractConfigsTurbo,
 };
